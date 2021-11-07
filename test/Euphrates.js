@@ -10,7 +10,7 @@ contract("Euphrates" , function(accounts){
             assert.equal(name, "Euphrate's", 'sets the name of the token');
             return tokenInstance.symbol();
         }).then(function(symbol){
-            assert.equal(symbol,"EUPHY'S",'set the tokens symbol');
+            assert.equal(symbol,"EUPHY",'set the tokens symbol');
             return tokenInstance.standard();
         }).then(function(standard){
             assert.equal(standard,"Euphrate's v1.0", 'to set the standard of the token');

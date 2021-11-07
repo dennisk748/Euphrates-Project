@@ -2,7 +2,7 @@ pragma solidity >=0.4.2 <0.9.0;
 
 contract Euphrates{
     string public name = "Euphrate's";
-    string public symbol = "EUPHY'S";
+    string public symbol = "EUPHY";
     string public standard = "Euphrate's v1.0";
     uint256 public totalSupply;
 
